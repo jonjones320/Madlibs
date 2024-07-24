@@ -7,7 +7,7 @@ function Madlib() {
     const [words, setWords] = useState({});
     const [story, setStory] = useState("");
 
-    function handleFormSubmit() {
+    function handleFormSubmit(formData) {
         setWords(formData);
         setStory(<Sentence words={formData} />)
     }
