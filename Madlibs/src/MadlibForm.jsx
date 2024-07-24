@@ -30,7 +30,8 @@ const MadlibForm = ({ onFormSubmit }) => {
         value={formData.adjective}
         onChange={handleChange}
       />
-      <label htmlFor="noun">Noun{formData.noun}</label>
+      <br />
+      <label htmlFor="noun">Noun</label>
       <input
         id="noun1"
         type="text"
@@ -39,7 +40,8 @@ const MadlibForm = ({ onFormSubmit }) => {
         value={formData.noun}
         onChange={handleChange}
       />
-      <label htmlFor="verb">Verb{formData.verb}</label>
+      <br />
+      <label htmlFor="verb">Verb</label>
       <input
         id="verb"
         type="text"
@@ -48,6 +50,7 @@ const MadlibForm = ({ onFormSubmit }) => {
         value={formData.verb}
         onChange={handleChange}
       />
+      <br />
       <button>Go!</button>
     </form>
   );
